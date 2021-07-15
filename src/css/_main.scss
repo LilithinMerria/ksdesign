@@ -1,0 +1,36 @@
+#main-section {
+    height: 350px;
+    background-color: red;
+}
+
+#ksd-project-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px;
+    
+    
+}
+
+.ksd-project {
+    background-color: green;
+    width: 430px;
+    height: 430px;
+    
+    
+}
+
+#img-co-founders {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+        width: 350px;
+        height: 355px;
+        margin: 7px;
+    }
+}
+
+#team {
+    text-align: center;
+}
