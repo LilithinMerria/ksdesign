@@ -1,15 +1,15 @@
 #navigation {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 #nav-list {
-    ul {
-        display: flex;
-    }
-    
-    li {
-        list-style-type: none;
-        padding: 7px;
-    }
+  ul {
+      display: flex;
+  }
+  
+  li {
+      list-style-type: none;
+      padding: 7px;
+  }
 }

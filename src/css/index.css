@@ -1,25 +1,52 @@
 #navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 #nav-list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
+
 #nav-list li {
   list-style-type: none;
   padding: 7px;
 }
 
-#main-section {
+#main-section, nav {
+  color: white;
+  text-align: center;
+  background-color: #021f1f;
+}
+
+#deco-div {
+  width: 7px;
+  height: 3px;
+  color: red;
+}
+
+#title {
+  text-align: left;
   height: 350px;
-  background-color: red;
+  background-image: url("./bibo_dokolo.jpeg");
+  background-size: cover;
 }
 
 #ksd-project-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   margin: 10px;
 }
 
@@ -29,11 +56,24 @@
   height: 430px;
 }
 
-#img-co-founders {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+#web-design {
+  background-image: url("./web_design.png");
+  background-size: cover;
+  background-position: right;
 }
+
+#img-co-founders {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 #img-co-founders img {
   width: 350px;
   height: 355px;
@@ -41,6 +81,19 @@
 }
 
 #team {
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+}
+
+.footer-list {
+  list-style-type: none;
+}
+
+#made-by {
+  width: 100%;
   text-align: center;
 }
 
@@ -53,4 +106,5 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   width: 95%;
-}/*# sourceMappingURL=index.css.map */
+}
+/*# sourceMappingURL=index.css.map */

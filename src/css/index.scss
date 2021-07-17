@@ -1,5 +1,6 @@
-@use './nav';
-@use './main';
+@import './nav';
+@import './main';
+@import './footer';
 
 body {
     margin: 0;
@@ -11,4 +12,3 @@ body {
     margin: 0 auto;
     width: 95%;
 }
-
