@@ -11,14 +11,14 @@ const Header = () => {
       <div className="content-wrapper">
         <div id="navigation">
           <div id="nav-title">
-            <h1>Kapaya SD</h1>
+            <h1 id="ksd-nav">Kapaya SD</h1>
           </div>
           
-          <div id="nav-list">
+          
             <ul>
             {navigationObj.map((nav) => <li key={nav.i}>{nav.title}</li>)}
             </ul>
-          </div>
+          
         </div>
       </div>
     </nav>

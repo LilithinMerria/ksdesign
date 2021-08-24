@@ -7,13 +7,26 @@
           justify-content: space-between;
 }
 
-#nav-list ul {
+#ksd-nav {
+  font-size: 3rem;
+}
+
+ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-#nav-list li {
+ul li {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  font-size: 0.9rem;
   list-style-type: none;
   padding: 7px;
 }
@@ -21,7 +34,12 @@
 #main-section, nav {
   color: white;
   text-align: center;
-  background-color: #021f1f;
+}
+
+#background-scope {
+  background-image: url("./bibo_dokolo.jpeg");
+  background-size: cover;
+  background-position: center;
 }
 
 #deco-div {
@@ -31,10 +49,12 @@
 }
 
 #title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 4.7rem;
+  font-weight: 800;
+  letter-spacing: -5px;
+  margin: 0;
   text-align: left;
-  height: 350px;
-  background-image: url("./bibo_dokolo.jpeg");
-  background-size: cover;
 }
 
 #ksd-project-div {
@@ -78,6 +98,11 @@
   width: 350px;
   height: 355px;
   margin: 7px;
+}
+
+#co-founders-div, #team {
+  background-color: white;
+  color: black;
 }
 
 #team {

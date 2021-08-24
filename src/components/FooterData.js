@@ -3,7 +3,8 @@ const footerObj = {
   twitter: "Twitter",
   facebook: "Facebook",
   emailMe: "Send Email",
-  made: "&copy 2021 Kapaya Studio Design; site made by Yves Arthur"
+  made: "2021 Kapaya Studio Design; site made by Yves Arthur",
+  about: "About Us"
   
 };
 

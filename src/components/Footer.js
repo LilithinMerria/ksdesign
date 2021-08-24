@@ -28,9 +28,13 @@ const FooterHere = () => {
               </a>
             </i>
           </li>
+
+          <li>
+            <a href="">About Us</a>
+          </li>
         </ul>
         
-        <div id="made-by"><span>{footerObj.made}</span>
+        <div id="made-by"><span>&copy;{footerObj.made}</span>
           <a href="https://www.linkedin.com/in/yvesarthur/">
             <i className="fab fa-linkedin"></i>
           </a>

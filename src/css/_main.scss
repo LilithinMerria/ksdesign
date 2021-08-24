@@ -2,7 +2,12 @@
   //height: 450px;
   color: white;
   text-align: center;
-  background-color: rgb(2, 31, 31);
+}
+
+#background-scope {
+  background-image: url('./bibo_dokolo.jpeg');
+  background-size: cover;
+  background-position: center;
 }
 
 #deco-div {
@@ -12,10 +17,12 @@
 }
 
 #title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 4.7rem;
+  font-weight: 800;
+  letter-spacing: -5px;
+  margin: 0;
   text-align: left;
-  height: 350px;
-  background-image: url('./bibo_dokolo.jpeg');
-  background-size: cover;
 }
 
 #ksd-project-div {
@@ -51,6 +58,11 @@
         height: 355px;
         margin: 7px;
     }
+}
+
+#co-founders-div, #team {
+  background-color: white;
+  color: black;
 }
 
 #team {
