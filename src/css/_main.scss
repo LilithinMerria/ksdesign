@@ -36,7 +36,6 @@
 }
 
 .ksd-project {
-    background-color: green;
     width: 430px;
     height: 430px;
     
@@ -47,6 +46,10 @@
   background-image: url('./web_design.png');
   background-size: cover;
   background-position: right;
+}
+
+#animation {
+  background-image: url('./maboso_visage_serre.jpg');
 }
 
 #img-co-founders {

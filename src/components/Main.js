@@ -12,7 +12,8 @@ const MainSection = () => {
           <div id="deco-div"></div>
           <h1 id="title">{sectionData.title}</h1>
         </div>
-
+        
+        {/**Project and Team */}
         <div id="ksd-project-div">
           <div id="animation" className="ksd-project">
           
@@ -29,12 +30,13 @@ const MainSection = () => {
           <h1>{sectionData.team}</h1>
         </div>
 
+        {/**Co-Founders */}
         <div id="co-founders-div">
           <div id="img-co-founders" className="content-wrapper">
             <div>
-              <img src={sectionData.picture.rene} alt="René Kapaya Co Founder and Artist" />
+              <img src={sectionData.picture.rene} alt="René Kapaya Co Founder and Graphic Designer" />
               <h3>René Kapaya</h3>
-              <p>Co Founder and Artist</p>
+              <p>Co Founder and Graphic Designer</p>
             </div>
 
             <div>
@@ -44,9 +46,9 @@ const MainSection = () => {
             </div>
 
             <div>
-              <img src={sectionData.picture.eric} alt="Éric Kapaya Co Founder and Marketing" />
+              <img src={sectionData.picture.eric} alt="Éric Kapaya Co Founder and Marketing Manager" />
               <h3>Éric Kapaya</h3>
-              <p>Co Founder and Marketing</p>
+              <p>Co Founder and Marketing Manager</p>
             </div>
           </div>
         </div>

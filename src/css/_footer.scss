@@ -1,10 +1,33 @@
 footer {
   width: 100%;
+  background-color: rgb(114, 18, 165);
+  color: white;
   
+}
+
+#footer-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.7rem;
+}
+
+.footer-list-ul, #follow-us > ul {
+  padding: 0;
 }
 
 .footer-list {
     list-style-type: none;
+    
+}
+
+.icons {
+  font-size: 1.7rem;
+  margin: 0.4rem;
+  line-height: 1.2rem;
+}
+
+a:visited, .a-visited {
+  color:rgb(224, 92, 191);
 }
 
 #made-by {

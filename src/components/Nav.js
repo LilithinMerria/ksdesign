@@ -15,7 +15,7 @@ const Header = () => {
           </div>
           
           
-            <ul>
+            <ul id="nav-ul">
             {navigationObj.map((nav) => <li key={nav.i}>{nav.title}</li>)}
             </ul>
           

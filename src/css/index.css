@@ -11,7 +11,7 @@
   font-size: 3rem;
 }
 
-ul {
+#nav-ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -23,7 +23,7 @@ ul {
           align-items: center;
 }
 
-ul li {
+#nav-ul li {
   font-family: 'Roboto', sans-serif;
   font-weight: 800;
   font-size: 0.9rem;
@@ -71,7 +71,6 @@ ul li {
 }
 
 .ksd-project {
-  background-color: green;
   width: 430px;
   height: 430px;
 }
@@ -80,6 +79,10 @@ ul li {
   background-image: url("./web_design.png");
   background-size: cover;
   background-position: right;
+}
+
+#animation {
+  background-image: url("./maboso_visage_serre.jpg");
 }
 
 #img-co-founders {
@@ -111,10 +114,36 @@ ul li {
 
 footer {
   width: 100%;
+  background-color: #7212a5;
+  color: white;
+}
+
+#footer-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 0.7rem;
+}
+
+.footer-list-ul, #follow-us > ul {
+  padding: 0;
 }
 
 .footer-list {
   list-style-type: none;
+}
+
+.icons {
+  font-size: 1.7rem;
+  margin: 0.4rem;
+  line-height: 1.2rem;
+}
+
+a:visited, .a-visited {
+  color: #e05cbf;
 }
 
 #made-by {
