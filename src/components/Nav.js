@@ -1,27 +1,31 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-const navigation = ["Home", 
-"Animation", "Webdesign"];
-
-const navigationObj = navigation.map((nav, i) => ({id: i, title: nav}));
+const navigationObj = {
+  ksd: "Kapaya SD",
+  home: "Home",
+  animation: "Animation",
+  web: "WebDesign"
+}
+//console.log(navigationObj)
 
 const Header = () => {
   return (
-    <nav>
+    <div id="nav-div">
       <div className="content-wrapper">
-        <div id="navigation">
+        <nav id="navigation">
           <div id="nav-title">
-            <h1 id="ksd-nav">Kapaya SD</h1>
+            <h1 id="ksd-nav">{navigationObj.ksd}</h1>
+          </div>
+          <div id="nav-ul">
+           <Link to="/" className="link-nav">{navigationObj.home}</Link>
+           <Link to="/animation" className="link-nav">{navigationObj.animation}</Link>
+           <Link to="/web" className="link-nav">{navigationObj.web}</Link>
           </div>
           
-          
-            <ul id="nav-ul">
-            {navigationObj.map((nav) => <li key={nav.i}>{nav.title}</li>)}
-            </ul>
-          
-        </div>
+        </nav>
       </div>
-    </nav>
+    </div>
   )
 }
   

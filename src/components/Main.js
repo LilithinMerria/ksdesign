@@ -2,11 +2,11 @@ import React from 'react';
 import sectionData from "./MainSectionData";
 import Header from './Nav';
 
-const MainSection = () => {
+const MainSection = (props) => {
   return(
     <section id="main-section">
       <div id="background-scope">
-        <Header />
+        <Header navigation={props.navigationObj}/>
 
         <div className="content-wrapper">
           <div id="deco-div"></div>

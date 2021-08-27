@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import footerObj from "./FooterData";
 
 const FooterHere = () => {
@@ -46,7 +47,9 @@ const FooterHere = () => {
          {/*About-Us Section */}
         <div id="about-us">
           <h2>MORE ABOUT US</h2>
-          <h3>About Us</h3>
+          <nav>
+            <Link to="/about">About Us</Link>
+          </nav>
         </div>
       </div>
 

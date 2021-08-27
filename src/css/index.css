@@ -1,3 +1,7 @@
+.about-component {
+  background-color: #2b899c;
+}
+
 #navigation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -23,7 +27,7 @@
           align-items: center;
 }
 
-#nav-ul li {
+#nav-ul a {
   font-family: 'Roboto', sans-serif;
   font-weight: 800;
   font-size: 0.9rem;
@@ -114,7 +118,7 @@
 
 footer {
   width: 100%;
-  background-color: #7212a5;
+  background-color: #2b899c;
   color: white;
 }
 
@@ -143,7 +147,7 @@ footer {
 }
 
 a:visited, .a-visited {
-  color: #e05cbf;
+  color: #c0df39;
 }
 
 #made-by {
