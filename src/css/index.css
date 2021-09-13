@@ -41,7 +41,7 @@
 }
 
 #background-scope {
-  background-image: url("./bibo_dokolo.jpeg");
+  background-image: url("../images/bibo_dokolo.jpeg");
   background-size: cover;
   background-position: center;
 }
@@ -80,13 +80,13 @@
 }
 
 #web-design {
-  background-image: url("./web_design.png");
+  background-image: url("../images/web_design.png");
   background-size: cover;
   background-position: right;
 }
 
 #animation {
-  background-image: url("./maboso_visage_serre.jpg");
+  background-image: url("../images/maboso_visage_serre.jpg");
 }
 
 #img-co-founders {
@@ -114,6 +114,64 @@
 
 #team {
   text-align: center;
+}
+
+#our-works {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: 1fr 180px (1fr)[3];
+      grid-template-rows: 1fr 180px repeat(3, 1fr);
+  grid-auto-rows: 1fr;
+  grid-auto-columns: 180px;
+  gap: 12px;
+}
+
+#our-works a {
+  border: gray 1px solid;
+}
+
+#our-work-title {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-column: 1 / 5;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1 / 2;
+  text-align: center;
+}
+
+#ksd-grid-item2 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  grid-row: 2 / 4;
+  background-image: url("../images/web_design_img.jpg");
+  background-size: cover;
+}
+
+#ksd-grid-item3 {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2 / 3;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  grid-row: 2 / 4;
+  background-image: url("../images/silvermusemist.jpg");
+  background-size: cover;
+}
+
+#ksd-grid-item4 {
+  -ms-grid-column: 3;
+  grid-column: 3 / 3;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  grid-row: 2 / 4;
+  background-image: url("../images/ashlyn_garden.jpg");
+  background-size: cover;
 }
 
 footer {
