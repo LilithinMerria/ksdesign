@@ -3,7 +3,7 @@ import Header from "./Nav";
 import FooterHere from "./Footer";
 
 const about = 
-"Kapaya Studio Design is a Studio Company that provides Graphic Design, and Web Design services at an affordable prices."
+"Kapaya Studio Design is a Studio Company that provides Graphic and Web Design services at affordable prices."
 
 const AboutUs = () => {
   return(

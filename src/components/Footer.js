@@ -40,6 +40,13 @@ const FooterHere = () => {
                   {footerObj.facebook}
               </a>
             </li>
+
+            <li className="footer-list">
+              <i className="fab fa-youtube icons"></i>
+              <a href="https://www.youtube.com/channel/UCQTzTYw5se7grljkyEZ0o1Q">
+                  {footerObj.youtube}
+              </a>
+            </li>
           </ul>
 
         </div>

@@ -5,8 +5,9 @@ const sectionData = {
       rene: "../images/rene.jpg",
       yves: "../images/art.jpg",
       eric: "../images/eric1.jpg",
-      web: "../images/web_design.png"
-    }
+      web: "../images/web_design.png",
+    },
+    videoId:"4ThbHkgffzQ"
   };
 
   export default sectionData;

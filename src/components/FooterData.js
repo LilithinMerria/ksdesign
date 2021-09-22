@@ -2,6 +2,7 @@ const footerObj = {
   phone: "+905488331446",
   twitter: "Twitter",
   facebook: "Facebook",
+  youtube: "YouTube",
   emailMe: "Send Email",
   made: "2021 Kapaya Studio Design — Site made by Yves Arthur",
   about: "About Us",

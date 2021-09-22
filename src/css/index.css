@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap");
 .about-component {
   background-color: #2b899c;
 }
@@ -52,8 +53,11 @@
   color: red;
 }
 
+#title, #animation-grid-div {
+  font-family: 'Bonheur Royale', 'Roboto', sans-serif;
+}
+
 #title {
-  font-family: 'Roboto', sans-serif;
   font-size: 4.7rem;
   font-weight: 800;
   letter-spacing: -5px;
@@ -172,6 +176,25 @@
   grid-row: 2 / 4;
   background-image: url("../images/ashlyn_garden.jpg");
   background-size: cover;
+}
+
+#animation-grid-div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 150px 1fr;
+      grid-template-rows: 150px 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  font-size: 32px;
+}
+
+iframe {
+  width: 800px;
+  height: 600px;
 }
 
 footer {
