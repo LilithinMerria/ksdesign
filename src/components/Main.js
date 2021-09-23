@@ -33,22 +33,28 @@ const MainSection = (props) => {
         {/**Co-Founders */}
         <div id="co-founders-div">
           <div id="img-co-founders" className="content-wrapper">
-            <div>
+            <div id="rene-div" className="founders-flex">
               <img src={sectionData.picture.rene} alt="René Kapaya Co Founder and Graphic Designer" />
-              <h3>René Kapaya</h3>
-              <p>Co Founder and Art Director</p>
+              <div>
+                <h3>René Kapaya</h3>
+                <p>Co Founder and Art Director</p>
+              </div>
             </div>
 
-            <div>
+            <div id="yves-arthur-div" className="founders-flex">
               <img src={sectionData.picture.yves} alt="Yves Arthur Co Founder and Developer" />
-              <h3>Yves Arthur</h3>
-              <p>Co Founder and CTO</p>
+              <div>
+                <h3>Yves Arthur</h3>
+                <p>Co Founder and CTO</p>
+              </div>
             </div>
 
-            <div>
+            <div id="eric-div" className="founders-flex">
               <img src={sectionData.picture.eric} alt="Éric Kapaya Co Founder and Marketing Manager" />
-              <h3>Éric Kapaya</h3>
-              <p>Co Founder and CMO</p>
+              <div>
+                <h3>Éric Kapaya</h3>
+                <p>Co Founder and CMO</p>
+              </div>
             </div>
           </div>
         </div>
