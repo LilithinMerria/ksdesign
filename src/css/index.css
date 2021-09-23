@@ -4,7 +4,9 @@
 }
 
 #navigation {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -31,7 +33,7 @@
   font-weight: 800;
   font-size: 0.9rem;
   list-style-type: none;
-  padding: 2px;
+  padding: 7px;
 }
 
 #main-section, nav {
@@ -234,7 +236,7 @@ a:visited, .a-visited {
   text-align: center;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 768px) {
   #ksd-project-div, #title {
     display: none;
   }

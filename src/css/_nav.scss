@@ -3,7 +3,7 @@
 }
 
 #navigation {
-  display: block;
+  display: flex;
   justify-content: space-between;
 }
 
@@ -22,7 +22,7 @@
       font-weight: 800;
       font-size: 0.9rem;
       list-style-type: none;
-      padding: 2px;
+      padding: 7px;
   }
 }
 
